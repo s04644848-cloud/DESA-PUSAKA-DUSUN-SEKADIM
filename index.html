@@ -1,109 +1,220 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desa Pusaka | Dusun Sekadim</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<header>
-    <nav class="navbar">
-        <div class="logo">
-            <span>🌿</span>
-            Desa Pusaka
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                <span>🌿</span>
+                Desa Pusaka
+            </div>
+
+            <button class="menu-toggle" onclick="toggleMenu()">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li>
+                    <a class="active" href="index.html">Beranda</a>
+                </li>
+
+                <li>
+                    <a href="profil.html">Profil</a>
+                </li>
+
+                <li>
+                    <a href="wisata.html">Potensi</a>
+                </li>
+
+                <li>
+                    <a href="galeri.html">Galeri</a>
+                </li>
+
+                <li>
+                    <a href="kontak.html">Kontak</a>
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <!-- HERO -->
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <p class="subtitle">
+                SELAMAT DATANG DI
+            </p>
+
+            <h1>
+                Dusun Sekadim
+            </h1>
+
+            <p>
+                Desa Pusaka, Kabupaten Sambas,
+                Kalimantan Barat
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="profil.html" class="btn">
+                    Jelajahi Desa
+                </a>
+
+                <a href="galeri.html" class="btn btn-outline">
+                    Lihat Galeri
+                </a>
+
+            </div>
+
         </div>
 
-        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+    </section>
 
-        <ul class="nav-links" id="navLinks">
-            <li><a class="active" href="index.html">Beranda</a></li>
-            <li><a href="profil.html">Profil</a></li>
-            <li><a href="wisata.html">Potensi</a></li>
-            <li><a href="galeri.html">Galeri</a></li>
-            <li><a href="kontak.html">Kontak</a></li>
-        </ul>
-    </nav>
-</header>
 
-<section class="hero">
-    <div class="hero-content">
-        <p class="subtitle">SELAMAT DATANG DI</p>
-        <h1>Dusun Sekadim</h1>
-        <p>
-            Desa Pusaka, Kabupaten Sambas, Kalimantan Barat
+    <!-- TENTANG -->
+    <section class="intro section">
+
+        <div class="section-title">
+
+            <span>
+                TENTANG KAMI
+            </span>
+
+            <h2>
+                Keindahan Desa Pusaka
+            </h2>
+
+            <p>
+                Mengenal lebih dekat Dusun Sekadim yang memiliki
+                suasana asri, kehidupan masyarakat yang hangat,
+                serta lingkungan yang penuh keindahan.
+            </p>
+
+        </div>
+
+
+        <div class="cards">
+
+            <div class="card">
+
+                <div class="card-icon">
+                    🌳
+                </div>
+
+                <h3>
+                    Lingkungan Asri
+                </h3>
+
+                <p>
+                    Suasana lingkungan yang hijau dan nyaman
+                    menjadi salah satu daya tarik Dusun Sekadim.
+                </p>
+
+            </div>
+
+
+            <div class="card">
+
+                <div class="card-icon">
+                    🕌
+                </div>
+
+                <h3>
+                    Kehidupan Masyarakat
+                </h3>
+
+                <p>
+                    Kehidupan masyarakat yang harmonis menciptakan
+                    suasana desa yang nyaman dan damai.
+                </p>
+
+            </div>
+
+
+            <div class="card">
+
+                <div class="card-icon">
+                    🏡
+                </div>
+
+                <h3>
+                    Potensi Desa
+                </h3>
+
+                <p>
+                    Desa memiliki berbagai potensi yang dapat
+                    dikembangkan untuk kemajuan masyarakat.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- QUOTE -->
+    <section class="quote-section">
+
+        <div>
+
+            <span>
+                “
+            </span>
+
+            <h2>
+                Desa yang indah adalah desa yang menjaga alam,
+                budaya, dan kebersamaan.
+            </h2>
+
+            <p>
+                — Dusun Sekadim
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="footer-content">
+
+            <h2>
+                🌿 Desa Pusaka
+            </h2>
+
+            <p>
+                Dusun Sekadim · Kabupaten Sambas ·
+                Kalimantan Barat
+            </p>
+
+        </div>
+
+        <p class="copyright">
+            © 2026 Desa Pusaka. Website Desa.
         </p>
 
-        <div class="hero-buttons">
-            <a href="profil.html" class="btn">Jelajahi Desa</a>
-            <a href="galeri.html" class="btn btn-outline">Lihat Galeri</a>
-        </div>
-    </div>
-</section>
+    </footer>
 
-<section class="intro section">
-    <div class="section-title">
-        <span>TENTANG KAMI</span>
-        <h2>Keindahan Desa Pusaka</h2>
-        <p>
-            Mengenal lebih dekat Dusun Sekadim yang memiliki suasana
-            asri, kehidupan masyarakat yang hangat, serta lingkungan
-            yang penuh keindahan.
-        </p>
-    </div>
 
-    <div class="cards">
-        <div class="card">
-            <div class="card-icon">🌳</div>
-            <h3>Lingkungan Asri</h3>
-            <p>
-                Suasana lingkungan yang hijau dan nyaman menjadi
-                salah satu daya tarik Dusun Sekadim.
-            </p>
-        </div>
+    <script src="script.js"></script>
 
-        <div class="card">
-            <div class="card-icon">🕌</div>
-            <h3>Kehidupan Masyarakat</h3>
-            <p>
-                Kehidupan masyarakat yang harmonis menciptakan
-                suasana desa yang nyaman dan damai.
-            </p>
-        </div>
-
-        <div class="card">
-            <div class="card-icon">🏡</div>
-            <h3>Potensi Desa</h3>
-            <p>
-                Desa memiliki berbagai potensi yang dapat
-                dikembangkan untuk kemajuan masyarakat.
-            </p>
-        </div>
-    </div>
-</section>
-
-<section class="quote-section">
-    <div>
-        <span>“</span>
-        <h2>
-            Desa yang indah adalah desa yang menjaga alam,
-            budaya, dan kebersamaan.
-        </h2>
-        <p>— Dusun Sekadim</p>
-    </div>
-</section>
-
-<footer>
-    <div class="footer-content">
-        <h2>🌿 Desa Pusaka</h2>
-        <p>Dusun Sekadim · Kabupaten Sambas · Kalimantan Barat</p>
-    </div>
-    <p class="copyright">
-        © 2026 Desa Pusaka. Website Desa.
-    </p>
-</footer>
-
-<script src="script.js"></script>
 </body>
+
 </html>
