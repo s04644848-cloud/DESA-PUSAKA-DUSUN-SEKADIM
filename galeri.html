@@ -1,253 +1,50 @@
 <!DOCTYPE html>
 <html lang="id">
-
 <head>
-
-    <meta charset="UTF-8">
-
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
-
-    <title>Potensi Desa | Desa Pusaka</title>
-
-    <link rel="stylesheet" href="style.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeri - Desa Pusaka Dusun Sekadim</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
-
 <body>
 
-    <!-- NAVBAR -->
-    <header>
-
-        <nav class="navbar">
-
-            <div class="logo">
-                <span>🌿</span>
-                Desa Pusaka
-            </div>
-
-            <button class="menu-toggle"
-                    onclick="toggleMenu()">
-                ☰
-            </button>
-
-            <ul class="nav-links" id="navLinks">
-
-                <li>
-                    <a href="index.html">
-                        Beranda
-                    </a>
-                </li>
-
-                <li>
-                    <a href="profil.html">
-                        Profil
-                    </a>
-                </li>
-
-                <li>
-                    <a class="active"
-                       href="wisata.html">
-                        Potensi
-                    </a>
-                </li>
-
-                <li>
-                    <a href="galeri.html">
-                        Galeri
-                    </a>
-                </li>
-
-                <li>
-                    <a href="kontak.html">
-                        Kontak
-                    </a>
-                </li>
-
-            </ul>
-
-        </nav>
-
-    </header>
-
-
-    <!-- HEADER -->
-    <section class="page-header">
-
-        <div>
-
-            <span>
-                KEUNGGULAN DESA
-            </span>
-
-            <h1>
-                Potensi Desa
-            </h1>
-
-            <p>
-                Keindahan dan potensi Dusun Sekadim
-            </p>
-
-        </div>
-
-    </section>
-
-
-    <!-- POTENSI -->
-    <section class="section">
-
-        <div class="section-title">
-
-            <span>
-                POTENSI
-            </span>
-
-            <h2>
-                Keindahan Dusun Sekadim
-            </h2>
-
-            <p>
-                Beberapa hal yang menjadi bagian dari kehidupan
-                dan keindahan Desa Pusaka.
-            </p>
-
-        </div>
-
-
-        <div class="potential-grid">
-
-
-            <!-- POTENSI 1 -->
-            <article class="potential-card">
-
-                <img
-                    src="img/lingkungan.jpeg"
-                    alt="Lingkungan desa">
-
-                <div class="potential-content">
-
-                    <span>
-                        01
-                    </span>
-
-                    <h3>
-                        Lingkungan Hijau
-                    </h3>
-
-                    <p>
-                        Lingkungan yang hijau dan asri memberikan
-                        suasana yang nyaman bagi masyarakat.
-                    </p>
-
-                </div>
-
-            </article>
-
-
-            <!-- POTENSI 2 -->
-            <article class="potential-card">
-
-                <img
-                    src="img/masjid.jpeg"
-                    alt="Masjid desa">
-
-                <div class="potential-content">
-
-                    <span>
-                        02
-                    </span>
-
-                    <h3>
-                        Kehidupan Religius
-                    </h3>
-
-                    <p>
-                        Tempat ibadah menjadi salah satu bagian
-                        penting dalam kehidupan masyarakat desa.
-                    </p>
-
-                </div>
-
-            </article>
-
-
-            <!-- POTENSI 3 -->
-            <article class="potential-card">
-
-                <img
-                    src="img/sd.jpeg"
-                    alt="Sekolah dasar">
-
-                <div class="potential-content">
-
-                    <span>
-                        03
-                    </span>
-
-                    <h3>
-                        Pendidikan
-                    </h3>
-
-                    <p>
-                        Pendidikan menjadi salah satu bagian
-                        penting untuk mendukung masa depan
-                        generasi desa.
-                    </p>
-
-                </div>
-
-            </article>
-
-
-        </div>
-
-    </section>
-
-
-    <!-- BANNER -->
-    <section class="banner-section">
-
-        <div>
-
-            <h2>
-                Menjaga Desa, Menjaga Masa Depan
-            </h2>
-
-            <p>
-                Keindahan desa merupakan tanggung jawab bersama.
-            </p>
-
-        </div>
-
-    </section>
-
-
-    <!-- FOOTER -->
-    <footer>
-
-        <div class="footer-content">
-
-            <h2>
-                🌿 Desa Pusaka
-            </h2>
-
-            <p>
-                Dusun Sekadim · Kabupaten Sambas ·
-                Kalimantan Barat
-            </p>
-
-        </div>
-
-        <p class="copyright">
-            © 2026 Desa Pusaka.
-        </p>
-
-    </footer>
-
-
-    <script src="script.js"></script>
+  <!-- NAVBAR / MENU NAVIGASI -->
+  <header class="navbar">
+    <div class="logo">Desa Sekadim</div>
+    <nav class="nav-links">
+      <a href="index.html">Beranda</a>
+      <a href="galeri.html" class="active">Galeri</a>
+      <a href="kontak.html">Kontak</a>
+    </nav>
+  </header>
+
+  <!-- KONTEN GALERI -->
+  <main class="container">
+    <h1>Galeri Desa Pusaka Dusun Sekadim</h1>
+    <p>Dokumentasi kegiatan dan keindahan desa.</p>
+
+    <div class="gallery-grid">
+      <!-- Item 1 -->
+      <div class="card">
+        <!-- CATATAN: Pastikan nama folder 'images' dan nama file 'foto1.jpg' 
+             sama persis dengan huruf besar/kecil di GitHub -->
+        <img src="images/foto1.jpg" alt="Kegiatan Desa 1">
+        <div class="card-title">Kegiatan Gotong Royong</div>
+      </div>
+
+      <!-- Item 2 -->
+      <div class="card">
+        <img src="images/foto2.jpg" alt="Pemandangan Desa">
+        <div class="card-title">Pemandangan Dusun</div>
+      </div>
+
+      <!-- Item 3 -->
+      <div class="card">
+        <img src="images/foto3.jpg" alt="Acara Desa">
+        <div class="card-title">Acara Adat</div>
+      </div>
+    </div>
+  </main>
 
 </body>
-
 </html>
